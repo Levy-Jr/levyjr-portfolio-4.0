@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        matter: ['var(--font-matter']
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
