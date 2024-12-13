@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local"
 import "./globals.css";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import { NextThemeProvider } from "@/providers/theme-provider";
 
 export const metadata: Metadata = {
   title: "Levy Jr Portfolio",
@@ -35,11 +38,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${matter.variable} antialiased`}
+        className={`${matter.variable} dark:bg-dark dark:text-white font-matter antialiased`}
       >
-        {children}
+        <NextThemeProvider>
+          <Header />
+          {children}
+          <Footer />
+        </NextThemeProvider>
       </body>
     </html>
   );

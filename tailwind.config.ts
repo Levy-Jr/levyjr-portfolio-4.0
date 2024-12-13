@@ -8,14 +8,18 @@ export default {
   ],
   theme: {
     extend: {
+      width: {
+        'xl-container': 'min(90%,80rem)',
+        'container': 'min(90%,67.1875rem)',
+      },
       fontFamily: {
-        matter: ['var(--font-matter']
+        matter: ['var(--font-matter)']
       },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        dark: "#121212",
       },
     },
   },
   plugins: [],
+  darkMode: 'selector'
 } satisfies Config;
