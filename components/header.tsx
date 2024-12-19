@@ -39,7 +39,7 @@ const Header = () => {
   ]
 
   return (
-    <header className="py-[.875rem]">
+    <header className="py-[.875rem] border-b border-b-[#1E1E1E] fixed w-full top-0 left-0">
       <div className="w-xl-container mx-auto flex justify-between items-center">
         <div>
           <Image

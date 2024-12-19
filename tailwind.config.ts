@@ -17,6 +17,14 @@ export default {
       },
       colors: {
         dark: "#121212",
+        darkGray: "#6C6C6C",
+        lightGray: "#C4C4C4",
+        gray: "#5E5E5E",
+        lightGreen: "#0CB26D",
+        primaryGreen: "#00FF8F",
+        darkGreen: "#006239",
+        darkerGreen: "#0B4D30",
+        darkestGreen: "#11291F"
       },
     },
   },

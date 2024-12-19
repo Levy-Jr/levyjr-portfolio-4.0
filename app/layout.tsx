@@ -27,6 +27,11 @@ const matter = localFont({
       weight: "600",
       style: "normal"
     },
+    {
+      path: "./fonts/Matter-Bold.ttf",
+      weight: "700",
+      style: "normal"
+    }
   ],
   display: "swap",
   variable: "--font-matter"
@@ -40,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${matter.variable} dark:bg-dark dark:text-white font-matter antialiased`}
+        className={`${matter.variable} font-matter dark:bg-dark dark:text-white antialiased`}
       >
         <NextThemeProvider>
           <Header />
