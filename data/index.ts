@@ -1,3 +1,14 @@
+import Agm from "@/public/projects/agm.svg"
+import Banco from "@/public/projects/bancodeterrenos.svg"
+import Bookmark from "@/public/projects/bookmark.svg"
+import ECommerce from "@/public/projects/e-commerce.svg"
+import GuiaSecreto from "@/public/projects/guiasecreto.svg"
+import MarquesLeao from "@/public/projects/marques&leao.svg"
+import Max from "@/public/projects/max.svg"
+import RealidadeVirtual from "@/public/projects/realidadevirtual.svg"
+import WInvestments from "@/public/projects/winvestments.svg"
+import ZapBarbearia from "@/public/projects/zapbarbearia.svg"
+
 import NextLogo from "@/public/stack/nextjs.svg"
 import TailwindLogo from "@/public/stack/tailwindcss.svg"
 import TypescriptLogo from "@/public/stack/typescript.svg"
@@ -19,8 +30,65 @@ import GoogleCalendarLogo from "@/public/stack/google-calendar.svg"
 
 export const projects = [
   {
-
-  }
+    img: Agm,
+    title: "AGM Auto Sales - Site Institucional",
+    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    href: "https://www.agmautosales.com"
+  },
+  {
+    img: ZapBarbearia,
+    title: "Zap Barbearia - Landing Page",
+    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    href: "https://www.zapbarbearia.com.br"
+  },
+  {
+    img: Banco,
+    title: "Banco de Terrenos - Landing Page",
+    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    href: "https://redebancodeterrenos.com/"
+  },
+  {
+    img: Bookmark,
+    title: "Marca Páginas - Landing Page",
+    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    href: "https://www.zapbarbearia.com.br"
+  },
+  {
+    img: ECommerce,
+    title: "E-Commerce de Periféricos - E-Commerce",
+    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    href: "https://www.zapbarbearia.com.br"
+  },
+  {
+    img: GuiaSecreto,
+    title: "Guia Secreto - Landing Page",
+    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    href: "https://www.zapbarbearia.com.br"
+  },
+  {
+    img: MarquesLeao,
+    title: "Marques & Leão - Site Institucional",
+    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    href: "https://www.marqueseleao.com.br"
+  },
+  {
+    img: WInvestments,
+    title: "WInvestments - Site Institucional",
+    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    href: "https://www.marqueseleao.com.br"
+  },
+  {
+    img: Max,
+    title: "Max Assistência - Landing Page",
+    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    href: "https://www.marqueseleao.com.br"
+  },
+  {
+    img: RealidadeVirtual,
+    title: "Realidade Virtual - Landing Page",
+    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    href: "https://www.marqueseleao.com.br"
+  },
 ]
 
 export const stack = [
@@ -93,6 +161,12 @@ export const stack = [
   {
     img: ShopifyLogo,
     name: "Shopify",
+    desc: "E-Commerce",
+    category: "development"
+  },
+  {
+    img: MagentoLogo,
+    name: "Magento",
     desc: "E-Commerce",
     category: "development"
   },

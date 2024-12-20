@@ -5,11 +5,14 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
 import Logo from "@/public/home/logo.svg"
-import ThemeSwitch from "./theme-switch"
+import { cn } from "@/lib/utils"
+import { MenuIcon, ThemeSwitchIcon } from "@/app/(home)/components/theme-switch-components"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
   const pathname = usePathname()
+
+  const toggleMenu = () => setIsOpen(!isOpen)
 
   useEffect(() => {
     setIsOpen(false)
@@ -39,7 +42,7 @@ const Header = () => {
   ]
 
   return (
-    <header className="py-[.875rem] border-b border-b-[#1E1E1E] fixed w-full top-0 left-0">
+    <header className="py-[.875rem] border-b border-b-[#1E1E1E] sticky bg-white/75 dark:bg-dark/50 backdrop-blur-sm w-full top-0 left-0 z-30">
       <div className="w-xl-container mx-auto flex justify-between items-center">
         <div>
           <Image
@@ -48,20 +51,25 @@ const Header = () => {
           />
         </div>
         <nav>
-          <ul className="flex gap-9 font-semibold">
-            {navLinks.map((item, index) => (
+          <ul className={cn("md:flex gap-9 font-semibold", isOpen ? "" : "hidden")}>
+            {navLinks.map((route, index) => (
               <li
                 key={index}
               >
-                <Link href={item.href}>
-                  {item.label}
+                <Link
+                  className={cn("", route.active ? "text-lightGreen dark:text-primaryGreen" : "hover:text-lightGreen dark:hover:text-primaryGreen")}
+                  href={route.href}>
+                  {route.label}
                 </Link>
               </li>
             ))}
           </ul>
         </nav>
         <div>
-          <ThemeSwitch />
+          <ThemeSwitchIcon />
+          <button onClick={toggleMenu} className={cn("md:hidden ml-5", isOpen ? "relative z-50" : "")}>
+            <MenuIcon />
+          </button>
         </div>
       </div>
     </header>
