@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
 import Logo from "@/public/home/logo.svg"
 import { cn } from "@/lib/utils"
-import { MenuIcon, ThemeSwitchIcon } from "@/app/(home)/components/theme-switch-components"
+import { MenuIcon, ThemeSwitchIcon } from "@/components/theme-switch-components"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)

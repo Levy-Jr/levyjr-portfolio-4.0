@@ -3,7 +3,7 @@ import Beto from "@/public/home/beto.webp"
 import Emmanuel from "@/public/home/emmanuel.webp"
 import Raphael from "@/public/home/raphael.webp"
 import Image from "next/image"
-import { ArrowIcon } from "./theme-switch-components"
+import { ArrowIcon } from "../../../components/theme-switch-components"
 
 const TestimonialSection = () => {
   const testimonials = [

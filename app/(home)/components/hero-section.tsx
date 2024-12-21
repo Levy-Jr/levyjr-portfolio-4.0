@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ArrowIcon } from "./theme-switch-components"
+import { ArrowIcon } from "../../../components/theme-switch-components"
 import WhatsappIcon from "@/public/home/whatsapp.svg"
 import Link from "next/link"
 

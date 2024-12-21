@@ -1,6 +1,6 @@
 import { stack } from "@/data"
 import Image from "next/image"
-import { DevelopmentIcon, ProductivityIcon } from "../(home)/components/theme-switch-components"
+import { DevelopmentIcon, ProductivityIcon } from "../../components/theme-switch-components"
 
 const Stack = () => {
   const development = stack.filter(item => item.category === "development")
