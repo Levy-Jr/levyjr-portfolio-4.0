@@ -32,62 +32,72 @@ export const projects = [
   {
     img: Agm,
     title: "AGM Auto Sales - Site Institucional",
+    category: "Site Institucional",
     desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
     href: "https://www.agmautosales.com"
   },
   {
     img: ZapBarbearia,
     title: "Zap Barbearia - Landing Page",
-    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    category: "Landing Page",
+    desc: "Landing Page para um SAAS de Inteligência Artificial para barbearias agilizarem o atendimento aos clientes.",
     href: "https://www.zapbarbearia.com.br"
   },
   {
     img: Banco,
     title: "Banco de Terrenos - Landing Page",
-    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    category: "Landing Page",
+    desc: "Projeto para a empresa loteadora Banco de Terrenos sobre como lotear sua área.",
     href: "https://redebancodeterrenos.com/"
-  },
-  {
-    img: Bookmark,
-    title: "Marca Páginas - Landing Page",
-    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
-    href: "https://www.zapbarbearia.com.br"
-  },
-  {
-    img: ECommerce,
-    title: "E-Commerce de Periféricos - E-Commerce",
-    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
-    href: "https://www.zapbarbearia.com.br"
-  },
-  {
-    img: GuiaSecreto,
-    title: "Guia Secreto - Landing Page",
-    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
-    href: "https://www.zapbarbearia.com.br"
   },
   {
     img: MarquesLeao,
     title: "Marques & Leão - Site Institucional",
+    category: "Site Institucional",
     desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
     href: "https://www.marqueseleao.com.br"
+  },
+  {
+    img: Bookmark,
+    title: "Marca Páginas - Landing Page",
+    category: "Landing Page",
+    desc: "Landing page para uma extensão marcadora de páginas, com manipulação de painel de guia, accordion e validação de formulário. Projeto desenvolvido para fins de estudos.",
+    href: "https://levy-jr.github.io/Book-Mark-Landing-Page/"
+  },
+  {
+    img: ECommerce,
+    title: "E-Commerce de Periféricos - E-Commerce",
+    category: "E-Commerce",
+    desc: "E-Commerce de periféricos com painel de administrador e diversas funcionalidades. Projeto feito para fins de estudos.",
+    href: "https://levy-jrs-e-commerce.vercel.app/"
+  },
+  {
+    img: GuiaSecreto,
+    title: "Guia Secreto - Landing Page",
+    category: "Landing Page",
+    desc: "Landing page sobre o Guia Secreto de como ganhar dinheiro pelo OnlyFans.",
+    href: "https://www.guiasecreto.com/"
   },
   {
     img: WInvestments,
     title: "WInvestments - Site Institucional",
+    category: "Site Institucional",
     desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
-    href: "https://www.marqueseleao.com.br"
+    href: ""
   },
   {
     img: Max,
     title: "Max Assistência - Landing Page",
-    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
-    href: "https://www.marqueseleao.com.br"
+    category: "Landing Page",
+    desc: "Projeto feito para divulgação de um curso para reparos em placas de vídeo.",
+    href: "https://levy-jr.github.io/MaxAssistencia-LP/"
   },
   {
     img: RealidadeVirtual,
     title: "Realidade Virtual - Landing Page",
-    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
-    href: "https://www.marqueseleao.com.br"
+    category: "Landing Page",
+    desc: "Landing Page para um estúdio produtor de óculos de realidade virtual. Projeto desenvolvido para fins de estudo.",
+    href: "https://levy-jr.github.io/MaxAssistencia-LP/"
   },
 ]
 
