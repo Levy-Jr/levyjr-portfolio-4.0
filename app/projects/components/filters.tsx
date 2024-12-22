@@ -5,9 +5,9 @@ import FilterArrow from "@/public/projects/filter.svg"
 
 const Filters = () => {
   return (
-    <div className="mt-[3.125rem] mb-10 flex flex-col gap-5 md:flex-row items-start md:items-center">
-      <div className="rounded-[100vmax] p-[.625rem] border border-lightGreen">
-        <button className="text-lightGreen inline-flex items-center gap-[.625rem]">
+    <div className="mt-[3.125rem] mb-10 flex flex-col-reverse gap-5 md:flex-row md:items-center">
+      <div className="rounded-2xl bg-darkGray/10 p-[.625rem] border border-lightGreen w-[min(31.25rem,100%)] md:w-[min(11.25rem,100%)] mx-auto md:mx-0">
+        <button className="text-lightGreen inline-flex justify-between w-full items-center gap-[.625rem]">
           Filtrar por
           <Image
             src={FilterArrow}

@@ -16,7 +16,7 @@ const About = () => {
               <p className="text-xl dark:text-lightGray">Desenvolvedor Web</p>
             </div>
           </div>
-          <Link className="self-start ml-[7.5rem] md:self-auto md:ml-0 py-[.625rem] px-5 inline-block rounded-[100vmax] dark:text-lightGreen border dark:border-lightGreen font-medium" href={""}>Ver disponibilidade</Link>
+          <Link className="self-start ml-[7.5rem] md:self-auto md:ml-0 py-[.625rem] px-5 inline-block rounded-[100vmax] dark:text-lightGreen border dark:border-lightGreen font-medium" target="_blank" rel="noopener noreferrer" href="https://wa.me/5592986001909">Ver disponibilidade</Link>
         </div>
       </div>
       <div className="border-b border-[#1E1E1E]">

@@ -14,9 +14,9 @@ const Stack = () => {
         <div className="flex items-center gap-[.625rem]">
           <DevelopmentIcon /> <h3 className="text-2xl font-medium">Desenvolvimento</h3>
         </div>
-        <ul className="mt-10 grid grid-cols-[repeat(auto-fit,minmax(14.0625rem,1fr))] lg:grid-cols-3 mb-[1.875rem] gap-y-[3.75rem]">
+        <ul className="mt-10 grid grid-cols-[repeat(auto-fit,minmax(14.0625rem,1fr))] lg:grid-cols-3 mb-[1.875rem] gap-5 gap-y-[2.25rem]">
           {development.map((item, index) => (
-            <li className="flex gap-5" key={index}>
+            <li className="flex gap-5 cursor-default px-[.625rem] rounded-[.625rem] py-3 hover:bg-darkGray/10" key={index}>
               <div className="flex-shrink-0">
                 <Image src={item.img} alt={item.name} />
               </div>
@@ -33,9 +33,9 @@ const Stack = () => {
         <div className="flex items-center gap-[.625rem]">
           <ProductivityIcon /> <h3 className="text-2xl font-medium">Produtividade</h3>
         </div>
-        <ul className="mt-10 grid grid-cols-[repeat(auto-fit,minmax(14.0625rem,1fr))] md:grid-cols-3 mb-[1.875rem] gap-y-[3.75rem]">
+        <ul className="mt-10 grid grid-cols-[repeat(auto-fit,minmax(14.0625rem,1fr))] md:grid-cols-3 mb-[1.875rem] gap-5 gap-y-[2.25rem]">
           {productivity.map((item, index) => (
-            <li className="flex gap-5" key={index}>
+            <li className="flex gap-5 cursor-default px-[.625rem] rounded-[.625rem] py-3 hover:bg-darkGray/10" key={index}>
               <div className="flex-shrink-0">
                 <Image src={item.img} alt={item.name} />
               </div>

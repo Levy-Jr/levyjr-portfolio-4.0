@@ -44,6 +44,13 @@ export const projects = [
     href: "https://www.zapbarbearia.com.br"
   },
   {
+    img: RealidadeVirtual,
+    title: "Active Tracking - Dashboard",
+    category: "Dashboard",
+    desc: "Dashboard para uma empresa de rastreamento de veículos.",
+    href: ""
+  },
+  {
     img: Banco,
     title: "Banco de Terrenos - Landing Page",
     category: "Landing Page",
@@ -54,7 +61,7 @@ export const projects = [
     img: MarquesLeao,
     title: "Marques & Leão - Site Institucional",
     category: "Site Institucional",
-    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
+    desc: "Projeto para a imobiliária Marques&Leão. Desenvolvida com Next.js e Tailwind CSS, ela possui 5 páginas, incluindo filtragem de imóveis e integração com API Google Maps.",
     href: "https://www.marqueseleao.com.br"
   },
   {
@@ -75,15 +82,15 @@ export const projects = [
     img: GuiaSecreto,
     title: "Guia Secreto - Landing Page",
     category: "Landing Page",
-    desc: "Landing page sobre o Guia Secreto de como ganhar dinheiro pelo OnlyFans.",
+    desc: "Landing page para o ebook Guia Secreto de como ganhar dinheiro pelo OnlyFans.",
     href: "https://www.guiasecreto.com/"
   },
   {
     img: WInvestments,
     title: "WInvestments - Site Institucional",
     category: "Site Institucional",
-    desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
-    href: ""
+    desc: "WInvestments é uma empresa do ramo imobiliário. Desenvolvida com Next.js e Tailwind CSS, possui mais de 11 páginas, incluindo menu de filtragem e outras funcionalidades.",
+    href: "https://www.winvestments.com.br"
   },
   {
     img: Max,
