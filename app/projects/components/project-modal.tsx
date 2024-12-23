@@ -40,7 +40,7 @@ const ProjectModal = ({ index, setProjectIndex }: { index: number, setProjectInd
             <h3 className="text-xl font-medium">{project.title}</h3>
             <p className="mt-[.625rem]">{project.desc}</p>
             <div className="mt-5 font-semibold">Stack:
-              <ul className="flex mt-[.625rem] text-white gap-2">
+              <ul className="flex flex-wrap mt-[.625rem] text-white gap-2">
                 {project.stack.map((stack, index) => (
                   <li
                     className={cn("font-bold leading-[1] p-[.625rem] bg-black bg-gradient-to-r rounded-[.4375rem]",
