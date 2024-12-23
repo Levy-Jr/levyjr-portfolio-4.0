@@ -3,11 +3,21 @@
 import { projects } from "@/data"
 import Image from "next/image"
 import Filters from "./components/filters"
-import { useState } from "react"
+import { useMemo, useState } from "react"
 import ProjectModal from "./components/project-modal"
+import { useSearchParams } from "next/navigation"
 
 const Projects = () => {
+  const searchParams = useSearchParams()
+
+  const queryCategory = searchParams.get('category') ?? ""
+  const queryTitle = searchParams.get('title') ?? ""
+
   const [projectIndex, setProjectIndex] = useState<undefined | number>(undefined)
+
+  const filteredProjects = useMemo(() => (
+    projects.filter(project => project.title.toLowerCase().includes(queryTitle.toLowerCase()) && project.category.toLowerCase().includes(queryCategory.toLowerCase()))
+  ), [queryTitle, queryCategory])
 
   return (
     <div className="relative">
@@ -19,8 +29,11 @@ const Projects = () => {
           />
         ) : null}
         <Filters />
-        <ul className="grid sm:grid-cols-[repeat(auto-fit,minmax(21.875rem,1fr))] gap-4">
-          {projects.map((project, i) => (
+        {queryCategory !== "" ? (
+          <p className="mt-3">Filtrando pela categoria: {queryCategory}</p>
+        ) : null}
+        <ul className="grid mt-10 sm:grid-cols-[repeat(auto-fit,minmax(21.875rem,25.9375rem))] gap-4">
+          {filteredProjects.map((project, i) => (
             <li className="rounded-[.625rem] flex flex-col overflow-hidden dark:bg-[#1B1B1B] border border-darkGray" key={i}>
               <div className="max-h-[16.25rem] overflow-hidden">
                 <Image

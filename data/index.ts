@@ -32,7 +32,7 @@ import GoogleCalendarLogo from "@/public/stack/google-calendar.svg"
 export const projects = [
   {
     img: Agm,
-    title: "AGM Auto Sales - Site Institucional",
+    title: "AGM Auto Sales",
     category: "Site Institucional",
     desc: "Site institucional para uma concessionária. Inicialmente foi criado usando Dealr Cloud, porém refiz o design e o frontend do site usando HTML, CSS & Javascript.",
     href: "https://www.agmautosales.com",
@@ -40,7 +40,7 @@ export const projects = [
   },
   {
     img: ZapBarbearia,
-    title: "Zap Barbearia - Landing Page",
+    title: "Zap Barbearia",
     category: "Landing Page",
     desc: "Landing Page para um SAAS de Inteligência Artificial para barbearias agilizarem o atendimento aos clientes.",
     href: "https://www.zapbarbearia.com.br",
@@ -48,7 +48,7 @@ export const projects = [
   },
   {
     img: EBS,
-    title: "Active Tracking - Dashboard",
+    title: "Active Tracking",
     category: "Dashboard",
     desc: "Dashboard para uma empresa de rastreamento de veículos.",
     href: "",
@@ -56,7 +56,7 @@ export const projects = [
   },
   {
     img: Banco,
-    title: "Banco de Terrenos - Landing Page",
+    title: "Banco de Terrenos",
     category: "Landing Page",
     desc: "Projeto para a empresa loteadora Banco de Terrenos sobre como lotear sua área.",
     href: "https://redebancodeterrenos.com/",
@@ -64,7 +64,7 @@ export const projects = [
   },
   {
     img: MarquesLeao,
-    title: "Marques & Leão - Site Institucional",
+    title: "Marques & Leão",
     category: "Site Institucional",
     desc: "Projeto para a imobiliária Marques&Leão. Desenvolvida com Next.js e Tailwind CSS, ela possui 5 páginas, incluindo filtragem de imóveis e integração com API Google Maps.",
     href: "https://www.marqueseleao.com.br",
@@ -72,7 +72,7 @@ export const projects = [
   },
   {
     img: Bookmark,
-    title: "Marca Páginas - Landing Page",
+    title: "Marca Páginas",
     category: "Landing Page",
     desc: "Landing page para uma extensão marcadora de páginas, com manipulação de painel de guia, accordion e validação de formulário. Projeto desenvolvido para fins de estudos.",
     href: "https://levy-jr.github.io/Book-Mark-Landing-Page/",
@@ -80,7 +80,7 @@ export const projects = [
   },
   {
     img: ECommerce,
-    title: "E-Commerce de Periféricos - E-Commerce",
+    title: "E-Commerce de Periféricos",
     category: "E-Commerce",
     desc: "E-Commerce de periféricos com painel de administrador e diversas funcionalidades. Projeto feito para fins de estudos.",
     href: "https://levy-jrs-e-commerce.vercel.app/",
@@ -88,7 +88,7 @@ export const projects = [
   },
   {
     img: GuiaSecreto,
-    title: "Guia Secreto - Landing Page",
+    title: "Guia Secreto",
     category: "Landing Page",
     desc: "Landing page para o ebook Guia Secreto de como ganhar dinheiro pelo OnlyFans.",
     href: "https://www.guiasecreto.com/",
@@ -96,7 +96,7 @@ export const projects = [
   },
   {
     img: WInvestments,
-    title: "WInvestments - Site Institucional",
+    title: "WInvestments",
     category: "Site Institucional",
     desc: "WInvestments é uma empresa do ramo imobiliário. Desenvolvida com Next.js e Tailwind CSS, possui mais de 11 páginas, incluindo menu de filtragem e outras funcionalidades.",
     href: "https://www.winvestments.com.br",
@@ -104,7 +104,7 @@ export const projects = [
   },
   {
     img: Max,
-    title: "Max Assistência - Landing Page",
+    title: "Max Assistência",
     category: "Landing Page",
     desc: "Projeto feito para divulgação de um curso para reparos em placas de vídeo.",
     href: "https://levy-jr.github.io/MaxAssistencia-LP/",
@@ -112,7 +112,7 @@ export const projects = [
   },
   {
     img: RealidadeVirtual,
-    title: "Realidade Virtual - Landing Page",
+    title: "Realidade Virtual",
     category: "Landing Page",
     desc: "Landing Page para um estúdio produtor de óculos de realidade virtual. Projeto desenvolvido para fins de estudo.",
     href: "https://levy-jr.github.io/MaxAssistencia-LP/",
