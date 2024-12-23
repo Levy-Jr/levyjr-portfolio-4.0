@@ -37,7 +37,7 @@ const Filters = () => {
 
   return (
     <div className="pt-[3.125rem] flex flex-col-reverse gap-5 md:flex-row md:items-center">
-      <div ref={filterRef} className="relative rounded-2xl bg-[#1b1b1b] p-[.625rem] w-[min(31.25rem,100%)] md:w-[min(11.25rem,100%)] mx-auto md:mx-0">
+      <div ref={filterRef} className="relative rounded-2xl dark:bg-[#1b1b1b] p-[.625rem] w-[min(31.25rem,100%)] md:w-[min(11.25rem,100%)] mx-auto md:mx-0">
         <button className="w-full">
           <span
             onClick={() => setShowFilterOptions(!showFilterOptions)}
@@ -51,7 +51,7 @@ const Filters = () => {
             />
           </span>
           {showFilterOptions ? (
-            <ul className="absolute p-[.625rem] text-lightGray left-0 w-full bg-[#1b1b1b] rounded-b-2xl text-start grid gap-1">
+            <ul className="absolute p-[.625rem] dark:text-lightGray left-0 w-full bg-white dark:bg-[#1b1b1b] rounded-b-2xl text-start grid gap-1">
               {filterOptions.map((option, index) => (
                 <li
                   className="hover:text-white"
