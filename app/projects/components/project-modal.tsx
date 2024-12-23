@@ -26,8 +26,8 @@ const ProjectModal = ({ index, setProjectIndex }: { index: number, setProjectInd
   const project = projects[index]
 
   return (
-    <div className="fixed pt-[6.25rem] z-50 inset-0 bg-black/30 backdrop-blur-md">
-      <div ref={menuRef} className="absolute right-1/2 translate-x-1/2 w-[min(62.5rem,100%)] rounded-[.625rem] flex flex-col overflow-hidden bg-white dark:bg-[#1B1B1B] border border-darkGray">
+    <div className="fixed z-50 min-h-[100svh] inset-3 bg-black/30 backdrop-blur-md">
+      <div ref={menuRef} className="absolute bottom-1/2 translate-y-1/2 right-1/2 translate-x-1/2 w-[min(62.5rem,100%)] rounded-[.625rem] flex flex-col overflow-hidden bg-white dark:bg-[#1B1B1B] border border-darkGray">
         <div className="max-h-[28.125rem]">
           <Image
             className="w-full object-cover object-top max-h-[28.125rem]"

@@ -51,7 +51,7 @@ const Header = () => {
           />
         </div>
         <nav>
-          <ul className={cn("md:flex gap-9 font-semibold", isOpen ? "fixed min-h-screen inset-0 text-white bg-black/75 grid gap-4 place-content-center backdrop-blur-xl" : "hidden")}>
+          <ul className={cn("md:flex gap-9 font-semibold", isOpen ? "fixed min-h-[100svh] inset-0 text-white bg-black/75 grid gap-4 place-content-center backdrop-blur-xl" : "hidden")}>
             {navLinks.map((route, index) => (
               <li
                 key={index}
