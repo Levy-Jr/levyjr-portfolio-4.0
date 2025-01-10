@@ -32,7 +32,7 @@ const ProjectsPageContent = () => {
         {queryCategory !== "" ? (
           <p className="mt-3">Filtrando pela categoria: {queryCategory}</p>
         ) : null}
-        <ul className="grid mt-10 sm:grid-cols-[repeat(auto-fit,minmax(21.875rem,25.9375rem))] gap-4">
+        <ul className="grid mt-10 place-content-center sm:grid-cols-[repeat(auto-fit,minmax(21.875rem,25.9375rem))] gap-4">
           {filteredProjects.map((project, i) => (
             <li className="rounded-[.625rem] flex flex-col overflow-hidden dark:bg-[#1B1B1B] border border-darkGray" key={i}>
               <div className="max-h-[16.25rem] overflow-hidden">
