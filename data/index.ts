@@ -31,6 +31,7 @@ import GoogleCalendarLogo from "@/public/stack/google-calendar.svg"
 
 export const projects = [
   {
+    id: 1,
     img: Agm,
     title: "AGM Auto Sales",
     category: "Site Institucional",
@@ -39,6 +40,7 @@ export const projects = [
     stack: ["HTML", "CSS", "Javascript", "Figma"]
   },
   {
+    id: 2,
     img: ZapBarbearia,
     title: "Zap Barbearia",
     category: "Landing Page",
@@ -47,6 +49,7 @@ export const projects = [
     stack: ["Next.js", "Tailwind CSS", "Framer-Motion", "Figma"]
   },
   {
+    id: 3,
     img: EBS,
     title: "Active Tracking",
     category: "Dashboard",
@@ -55,6 +58,7 @@ export const projects = [
     stack: ["HTML", "CSS", "Javascript", "Figma"]
   },
   {
+    id: 4,
     img: Banco,
     title: "Banco de Terrenos",
     category: "Landing Page",
@@ -63,6 +67,7 @@ export const projects = [
     stack: ["HTML", "CSS", "Javascript"]
   },
   {
+    id: 5,
     img: MarquesLeao,
     title: "Marques & Leão",
     category: "Site Institucional",
@@ -71,6 +76,7 @@ export const projects = [
     stack: ["Next.js", "Tailwind CSS", "Framer-Motion"]
   },
   {
+    id: 6,
     img: Bookmark,
     title: "Marca Páginas",
     category: "Landing Page",
@@ -79,6 +85,7 @@ export const projects = [
     stack: ["HTML", "CSS", "Javascript"]
   },
   {
+    id: 7,
     img: ECommerce,
     title: "E-Commerce de Periféricos",
     category: "E-Commerce",
@@ -87,6 +94,7 @@ export const projects = [
     stack: ["Next.js", "Tailwind CSS", "Figma", "Stripe"]
   },
   {
+    id: 8,
     img: GuiaSecreto,
     title: "Guia Secreto",
     category: "Landing Page",
@@ -95,6 +103,7 @@ export const projects = [
     stack: ["HTML", "CSS", "Javascript"]
   },
   {
+    id: 9,
     img: WInvestments,
     title: "WInvestments",
     category: "Site Institucional",
@@ -103,6 +112,7 @@ export const projects = [
     stack: ["Next.js", "Tailwind CSS", "Framer-Motion"]
   },
   {
+    id: 10,
     img: Max,
     title: "Max Assistência",
     category: "Landing Page",
@@ -111,6 +121,7 @@ export const projects = [
     stack: ["HTML", "CSS", "Javascript"]
   },
   {
+    id: 11,
     img: RealidadeVirtual,
     title: "Realidade Virtual",
     category: "Landing Page",

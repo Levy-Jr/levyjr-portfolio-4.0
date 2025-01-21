@@ -6,7 +6,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useRef } from "react"
 
-const ProjectModal = ({ index, setProjectIndex }: { index: number, setProjectIndex: React.Dispatch<React.SetStateAction<number | undefined>> }) => {
+const ProjectModal = ({ index: id, setProjectIndex }: { index: number, setProjectIndex: React.Dispatch<React.SetStateAction<number | undefined>> }) => {
   const menuRef = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const ProjectModal = ({ index, setProjectIndex }: { index: number, setProjectInd
     }
   })
 
-  const project = projects[index]
+  const [project] = projects.filter(project => project.id === id)
 
   return (
     <div className="fixed z-50 min-h-[100svh] inset-3 bg-black/30 backdrop-blur-md">
