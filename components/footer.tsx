@@ -64,7 +64,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <p className="dark:text-lightGray text-center mt-[2.5rem] md:mt-[6.25rem]">© 2025 Levy Gomes. Todos os direitos reservados.</p>
+        <p className="dark:text-lightGray text-center mt-[2.5rem] md:mt-[6.25rem]">© {new Date().getFullYear()} Levy Gomes. Todos os direitos reservados.</p>
       </div>
     </footer>
   )
